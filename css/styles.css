@@ -1,0 +1,122 @@
+/************************************************************************/
+                          /* IMPORTS */
+/************************************************************************/
+
+
+/* FONTS */
+
+/* 'League Spartan', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+/************************************************************************/
+                          /* VARIABLES */
+/************************************************************************/
+
+
+:root {
+
+
+  /* Font Family */
+  --main-font-family: 'League Spartan', sans-serif;
+
+
+  /* COLORS */
+
+  /* Light Text Color */
+  --light-text-color:  hsl(0, 0, 100%);
+
+  /*--- THEME 1 ---*/
+
+  /*------ Backgrounds ------*/
+  --theme-1-main-bg-color: hsl(222, 26%, 31%);
+  --theme-1-keypad-bg-color: hsl(223, 31%, 20%);
+  --theme-1-screen-bg-color: hsl(224, 36%, 15%);
+
+  /*------ Keys ------*/
+  --theme-1-key-bg-cool-color: hsl(225, 21%, 49%);
+  --theme-1-key-shadow-cool-color: hsl(224, 28%, 35%);
+
+  --theme-1-key-bg-warm-color: hsl(6, 63%, 50%);
+  --theme-1-key-shadow-warm-color: hsl(6, 70%, 34%);
+
+  --theme-1-key-bg-color: hsl(30, 25%, 89%);
+  --theme-1-key-shadow-color: hsl(28, 16%, 65%);
+
+  /*------ Text ------*/
+  --theme-1-dark-text-color: hsl(221, 14%, 31%);
+  /* --theme-1-light-text-color:  hsl(0, 0, 100%); */
+
+
+  /*--- THEME 2 ---*/
+
+  /*------ Backgrounds ------*/
+  --theme-2-main-bg-color: hsl(0, 0%, 90%);
+  --theme-2-keypad-bg-color: hsl(0, 5%, 81%);
+  --theme-2-screen-bg-color: hsl(0, 0%, 93%);
+
+  /*------ Keys ------*/
+  --theme-2-key-bg-cool-color: hsl(185, 42%, 37%);
+  --theme-2-key-shadow-cool-color: hsl(185, 58%, 25%);
+
+  --theme-2-key-bg-warm-color: hsl(25, 98%, 40%);
+  --theme-2-key-shadow-warm-color: hsl(25, 99%, 27%);
+
+  --theme-2-key-bg-color: hsl(45, 7%, 89%);
+  --theme-2-key-shadow-color: hsl(35, 11%, 61%);
+
+  /*------ Text ------*/
+  --theme-2-dark-text-color: hsl(60, 10%, 19%);
+  /* --theme-2-light-text-color:  hsl(0, 0, 100%); */
+
+
+  /*--- THEME 3 ---*/
+
+  /*------ Backgrounds ------*/
+  --theme-3-main-bg-color: hsl(268, 75%, 9%);
+  --theme-3-keypad-bg-color: hsl(268, 71%, 12%);
+  /* --theme-3-screen-bg-color: hsl(268, 71%, 12%); */
+
+  /*------ Keys ------*/
+  --theme-3-key-bg-cool-color: hsl(281, 89%, 26%);
+  --theme-3-key-shadow-cool-color: hsl(285, 91%, 52%);
+
+  --theme-3-key-bg-warm-color: hsl(176, 100%, 44%);
+  --theme-3-key-shadow-warm-color: hsl(177, 92%, 70%);
+
+  --theme-3-key-bg-color: hsl(268, 47%, 21%);
+  --theme-3-key-shadow-color: hsl(290, 70%, 36%);
+
+  /*------ Text ------*/
+  --theme-3-dark-text-color: hsl(198, 20%, 13%);
+  --theme-3-bright-text-color: hsl(52, 100%, 62%);
+  /* --theme-3-light-text-color:  hsl(0, 0, 100%); */
+
+
+}
+
+
+/************************************************************************/
+                            /* STYLES */
+/************************************************************************/
+
+
+/* html */
+html {
+  font-size: 32px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* body */
+.main-container {
+  font-family: var(--main-font-family);
+  font-weight: 700;
+}
+
+/************************************************************************/
+                         /* MEDIA QUERIES */
+/************************************************************************/
