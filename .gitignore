@@ -2,7 +2,7 @@
 # Avoid upload of all design files
 # Avoid upload of style-guide
 #####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+## Please do not remove lines 7 and 8 - thanks! 🙂 ##
 #####################################################
 *.sketch
 *.fig
@@ -11,7 +11,7 @@ style-guide.md
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
+## Please do not remove line 16 - thanks! 🙂 ##
 ###############################################
 *.xd
 

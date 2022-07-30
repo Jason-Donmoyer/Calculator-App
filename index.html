@@ -9,18 +9,79 @@
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
-<body>
+<body class="main-container">
+
+  <!-- Main Content Container Start -->
+  <main class="main-content-container">
+
+    <!-- Header Container Start -->
+    <div class="header-container">
+      <h1 class="main-headline">calc</h1>
+      <!-- Theme Selection Container Start -->
+      <div class="theme-selection-container">
+        <h2 class="theme-copy">theme</h2>
+        <!-- Selector Container Start -->
+        <div class="selector-container">
+          <p class="selector-copy">1</p>
+          <p class="selector-copy">2</p>
+          <p class="selector-copy">3</p>
+          <div class="slidebar-container">
+            <div class="slidebar-btn"></div>
+          </div>
+        </div>
+        <!-- Selector Container End -->
+      </div>
+      <!-- Theme Selection Container End -->
+    </div>
+    <!-- Header Container End -->
+
+    <!-- Calculator Container Start -->
+    <div class="calculator-container">
+      <!-- Display Container Start -->
+      <div class="display-container">
+        <p id="result" class="display-copy">0</p>
+      </div>
+      <!-- Display Container End -->
+
+      <!-- Buttons Container Start -->
+      <div class="buttons-container">
+        <div id="btn-7" class="calc-btn">7</div>
+        <div id="btn-8" class="calc-btn">8</div>
+        <div id="btn-9" class="calc-btn">9</div>
+        <div id="btn-delete" class="calc-btn btn-cool-hl">del</div>
+        <div id="btn-4" class="calc-btn">4</div>
+        <div id="btn-5" class="calc-btn">5</div>
+        <div id="btn-6" class="calc-btn">6</div>
+        <div id="btn-add" class="calc-btn">+</div>
+        <div id="btn-1" class="calc-btn">1</div>
+        <div id="btn-2" class="calc-btn">2</div>
+        <div id="btn-3" class="calc-btn">3</div>
+        <div id="btn-subtract" class="calc-btn">-</div>
+        <div id="btn-decimal" class="calc-btn">.</div>
+        <div id="btn-0" class="calc-btn">0</div>
+        <div id="btn-divide" class="calc-btn">/</div>
+        <div id="btn-multiply" class="calc-btn">x</div>
+        <div id="btn-reset" class="calc-btn btn-cool-hl">reset</div>
+        <div id="btn-equals" class="calc-btn btn-warm-hl">=</div>
+      </div>
+      <!-- Buttons Container End -->
+    </div>
+    <!-- Calculator Container End -->
+
+  </main>
+  <!-- Main Content Container End -->
+
 
 
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
