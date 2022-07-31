@@ -24,7 +24,7 @@
   /* COLORS */
 
   /* Light Text Color */
-  --light-text-color:  hsl(0, 0, 100%);
+  --light-text-color:  hsl(0, 0%, 100%);
 
   /*--- THEME 1 ---*/
 
@@ -115,7 +115,186 @@ html {
 .main-container {
   font-family: var(--main-font-family);
   font-weight: 700;
+  padding: 0.9375rem 0.75rem 0rem 0.75rem;
+  background-color: var(--theme-1-main-bg-color);
 }
+
+
+/* Main Content Container */
+.main-content-container {
+  display: grid;
+}
+
+
+/***************************/
+        /* HEADER */
+/***************************/
+
+
+/* Header Container */
+.header-container {
+  color: var(--light-text-color);
+  height: 1.3125rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* h1 */
+.main-headline {
+  line-height: 0.90625rem;
+  letter-spacing: -0.016667rem; 
+  text-align: center;
+  /* flex-grow: 2; */
+}
+
+
+/* Theme Selection Container */
+.theme-selection-container {
+  height: 1.3125rem;
+  font-size: 0.375rem;
+  line-height: 0.34375rem;
+  display: flex;
+  flex-basis: 4.34375rem;
+  /* flex-grow: 1; */
+  justify-content: space-between;
+}
+
+
+/* h2 */
+.theme-copy {
+  text-transform: uppercase;
+  letter-spacing: 0.03125rem;
+  align-self: flex-end;
+}
+
+
+/* Selector Container */
+.selector-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 2.21875rem;
+  justify-content: space-between;
+}
+
+
+/* Selector Copy Container */
+.selector-copy-container {
+  padding-left: 0.21875rem;
+  padding-right: 0.21875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Slidebar Container */
+.slidebar-container {
+  height: 0.8125rem;
+  background-color: var(--theme-1-keypad-bg-color);
+  border-radius: 0.40625rem;
+  display: flex;
+  align-items: center;
+}
+
+
+/* Slidebar Button */
+.slidebar-btn {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--theme-1-key-bg-warm-color);
+  margin-left: 0.15625rem;
+}
+
+
+/***************************/
+   /* CALCULATOR STYLES */
+/***************************/
+
+
+/* Calculator Container */
+.calculator-container {
+  height: 16.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Screen Container */ 
+.screen-container {
+  height: 2.75rem;
+  border-radius: 0.3125rem;
+  background-color: var(--theme-1-screen-bg-color);
+  color: var(--light-text-color);
+  padding-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+/* Keys Container */
+.keys-container {
+  height: 13.125rem;
+  padding: 0.75rem;
+  background-color: var(--theme-1-keypad-bg-color);
+  border-radius: 0.3125rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 0.40625rem;
+}
+
+
+/* Calculator Keys */
+.calc-key {
+  /* line-height: 0.90625rem; */
+  /* letter-spacing: -0.016667rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.15625rem;
+  background-color: var(--theme-1-key-bg-color);
+  color: var(--theme-1-dark-text-color);
+  box-shadow: inset 0rem -0.125rem 0rem var(--theme-1-key-shadow-color);
+}
+
+
+/* Reset Key and Equals Key */
+.key-reset,
+.key-equals {
+  grid-column-start: span 2;
+}
+
+
+/* Delete, Reset and Equals Keys */
+.key-cool-hl,
+.key-warm-hl {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  letter-spacing: -0.0103125rem;
+  color: var(--light-text-color);
+}
+
+
+/* Cool Background Keys */
+.key-cool-hl {
+  background-color: var(--theme-1-key-bg-cool-color);
+  box-shadow: inset 0rem -0.125rem 0rem var(--theme-1-key-shadow-cool-color); 
+}
+
+
+/* Warm Background Keys */
+.key-warm-hl {
+  background-color: var(--theme-1-key-bg-warm-color);
+  box-shadow: inset 0rem -0.125rem 0rem var(--theme-1-key-shadow-warm-color);
+}
+
+
+
 
 /************************************************************************/
                          /* MEDIA QUERIES */
